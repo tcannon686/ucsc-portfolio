@@ -1,0 +1,159 @@
+{
+  "projects": [
+    {
+      "id" : 9,
+      "title" : "Out on a Limb",
+      "description" : "Out on a Limb is a platformer created by a group of UCSC students and I for the 2020 Global Game Jam. It is a complete game that can be played from start to finish and features enemies, obstacles, sound effects, music, and cartoony graphics. Zach Booth and I did the majority of the coding, while Joey Silberman wrote the music and designed the levels, and Nic Tee created art and sound effects. The project is written in Lua using Love 2D. You can download the game for Windows at the link below. To play on Mac or Linux, download Love 2D from the Love 2D website. Then, download the source code off of GitHub. Run the game by running love on the source code directory.",
+      "tags": ["Lua", "Games", "Platformer", "Windows", "Linux", "Team"],
+      "links" : [
+        {
+          "link" : "https://ggj.s3.amazonaws.com/games/2020/02/273343/exec/SCOHk/outonalimb-windows.zip",
+          "text" : "Get it on Windows"
+        },
+        {
+          "link" : "https://github.com/groverburger/ggj2020.git",
+          "text" : "Source code on GitHub"
+        },
+        {
+          "link" : "https://love2d.org/",
+          "text" : "Love 2D website"
+        },
+        {
+          "link" : "https://globalgamejam.org/2020/games/out-limb-6",
+          "text" : "Global Game Jam website"
+        }
+      ],
+      "screenshots" : [
+        "out-on-a-limb/cover.png", "out-on-a-limb/screenshot1.png", "out-on-a-limb/screenshot2.png",
+        "out-on-a-limb/screenshot3.png", "out-on-a-limb/screenshot4.png", "out-on-a-limb/screenshot5.png"]
+    },
+    {
+      "id" : 5,
+      "title" : "Erraticus",
+      "description" : "Erraticus is a mysterious game in which the player travels through a maze-like series of rooms. The goal is to complete a series of puzzles while avoiding ghosts and other enemies. The player has no weapons, but can kill the ghosts by leading them into doors and obstacles. The game features 2D and 3D art, an original soundtrack, and sound effects. It was created using Unity, C#, Blender, GIMP, Inkscape, and FLStudio. The Unity project is available at the link below.",
+      "tags": ["C#", "First person", "Unity", "Games", "Windows", "Linux"],
+      "links" : [
+        {
+          "link" : "erraticus/erraticus-windows.zip",
+          "text" : "Get it on Windows x86-64"
+        },
+        {
+          "link" : "erraticus/erraticus-linux.zip",
+          "text" : "Get it on Linux x86-64"
+        },
+        {
+          "link" : "erraticus/erraticus-project.zip",
+          "text" : "Download Unity project"
+        }
+      ],
+      "screenshots" : [
+        "erraticus/logo.png",
+        "erraticus/screenshot0.png", "erraticus/screenshot1.png", "erraticus/screenshot2.png",
+        "erraticus/screenshot3.png", "erraticus/screenshot4.png", "erraticus/screenshot5.png",
+        "erraticus/screenshot6.png", "erraticus/screenshot7.png"]
+    },
+    {
+      "id" : 4,
+      "title" : "Tether Spin",
+      "description" : "Tether Spin is a puzzle game app for Android. It is written in C# using MonoGame. I created all of the content for it, including sprites and sound effects. One of the most challenging parts of this project was creating levels that were the right amount of difficulty for both novice and advanced players. To play, users tap on the screen to connect the ball to rotating objects called \"spinners\". Players then guide the ball through a series of spinners to a goal, which takes them to the next level. Players can see how they rank compared to other players on the leaderboard.",
+      "tags": ["C#", "Android", "MonoGame", "Games", "Puzzle"],
+      "links" : [
+        {
+          "link" : "https://play.google.com/store/apps/details?id=cannonapps.spin",
+          "text" : "Get it on Google Play"
+        }
+      ],
+      "screenshots" : [
+        "tether-spin/Screenshot1.png", "tether-spin/Screenshot2.png",
+        "tether-spin/Screenshot3.png", "tether-spin/Screenshot4.png", "tether-spin/Screenshot5.png",
+        "tether-spin/Screenshot6.png", "tether-spin/Screenshot7.png", "tether-spin/Screenshot8.png"],
+      "video" : "https://www.youtube.com/embed/MC6whX6vZj0"
+    },
+    {
+      "id" : 8,
+      "title" : "gnidEngine",
+      "tags": ["C/C++", "OpenGL", "First person", "Graphics", "Games", "Non-games", "Windows", "Linux"],
+      "description" : "A work in progress 3D game engine I am developing in C++ using OpenGL. Currently, it features simple lighting, shaders, and fast collision detection using the GJK and EPA algorithms. It also uses k-D trees for collision pruning to improve the speed of collision detection. It is written entirely in C++, using modern (C++17) C++ features, and is compiled using the CMake build system, with documentation generated using Doxygen. The goals of the project include clean code, fast runtime, and detailed documentation.",
+      "links" : [
+        {
+          "link" : "https://github.com/tcannon686/gnidEngine",
+          "text" : "Source code on GitHub"
+        }
+      ],
+      "screenshots" : [
+        "gnid/screenshot0.png",
+        "gnid/screenshot1.png",
+        "gnid/screenshot2.png",
+        "gnid/screenshot3.png"
+      ]
+    },
+    {
+      "id" : 3,
+      "title" : "A+ Chord Finder",
+      "description" : "A chord finding app for guitar players. A+ Chord Finder helps instrumentalists figure out how to play different chords by finding every possible combination of notes for each chord and filtering the result. A+ Chord Finder doesn't just work for guitar, it works for any instrument with up to eleven strings. It can also figure out how to play any chord, although some knowledge of music theory is required.",
+      "tags": ["Java", "Non-games", "Android"],
+      "links" : [
+        {
+          "link" : "https://play.google.com/store/apps/details?id=cannonapps.apluschordfinder",
+          "text" : "Get it on Google Play"
+        }
+      ],
+      "screenshots" : [
+        "aaug/screenshot0.png", "aaug/screenshot1.png", "aaug/screenshot2.png",
+        "aaug/screenshot3.png", "aaug/screenshot4.png", "aaug/screenshot5.png" ]
+    },
+    {
+      "id" : 2,
+      "title" : "Trace",
+      "description" : "Trace is a simple raytracer I created. It is not the most powerful raytracer, but it was a learning experience. It has basic features such as shadows, reflection, and refraction. It has a front end written in Python to create simple scenes, and a backend written in C to handle the rendering. Here are some pictures rendered with the program. It also uses LodePNG by Lode Vandevenne to read and write PNG images.",
+      "tags": ["C/C++", "Non-games", "Graphics", "Windows", "Linux"],
+      "links" : [
+        {
+          "link" : "https://github.com/tcannon686/trace",
+          "text" : "Source code on GitHub"
+        },
+        {
+          "link" : "https://lodev.org/lodepng/",
+          "text" : "LodePNG website"
+        }
+      ],
+      "playlist" : "https://www.youtube.com/watch?v=Y_l6xPpk4vw&list=PLJGzApecE8Q4ykb_rgp0yDLrVg0HinTDx",
+      "screenshots" : [
+        "trace/demo1.png", "trace/demo2.png", "trace/demo3.png", "trace/demo4.png"
+      ]
+    },
+    {
+      "id" : 6,
+      "title" : "The Disaster Trail",
+      "description" : "The Disaster Trail is a capstone project created by senior Game Design students at UC Santa Cruz. As a freshman, I was able to work on the project as a programmer on the team. I was responsible for much of the UI and UI animations, as well as the leaderboard, and waypoints. The project was created in Unity and used Unity Collab for version control.",
+      "tags": ["C#", "Unity", "Games", "Team", "Windows", "Linux", "Android"],
+      "links" : [
+        {
+          "link" : "http://thedagames.com/",
+          "text" : "The Disaster Awareness Games Website"
+        }
+      ],
+      "video" : "https://www.youtube.com/embed/oFvyx6juqoI"
+    },
+    {
+      "id" : 1,
+      "title" : "Peg Leg Patrick's Buoyancy Adventure",
+      "tags": ["Java", "OpenGL", "Games", "Windows", "Linux"],
+      "description" : "Peg Leg Patrick's Buoyancy Adventure is a game I designed to teach kids about buoyancy. This project won the Open Platform division for the National Stem Video Game Challenge. Please note that this project was created several years ago when I was in high school, and is not to the same caliber as my newer projects. The project was written in Java using LWJGL as an OpenGL front end.",
+      "video" : "https://www.youtube.com/embed/4t_h1Le5ypw"
+    },
+    {
+      "id" : 0,
+      "title" : "Macrobugs",
+      "description" : "Macrobugs is a program I wrote several years ago to look like Galaga. It features post processing effects to mimic an arcade cabinet, complete with sound effects. It is written in Java using LWJGL as an OpenGL front end. Please note that this project was written before I entered high school, and is not to the same caliber as my newer projects.",
+      "tags": ["Java", "Games", "Windows", "Linux"],
+      "video" :  "https://www.youtube.com/embed/yExUF4GyK-s",
+      "links" : [
+        {
+          "link": "release3-macrobugs.zip",
+          "text" : "Download zipped JAR file"
+        }
+      ]
+    }
+  ]
+}
