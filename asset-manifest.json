@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.a91a5059.css",
-    "main.js": "/static/js/main.b2843ab5.js",
-    "static/js/787.06a7e454.chunk.js": "/static/js/787.06a7e454.chunk.js",
-    "index.html": "/index.html",
-    "main.a91a5059.css.map": "/static/css/main.a91a5059.css.map",
-    "main.b2843ab5.js.map": "/static/js/main.b2843ab5.js.map",
-    "787.06a7e454.chunk.js.map": "/static/js/787.06a7e454.chunk.js.map"
+    "main.css": "/ucsc-portfolio/static/css/main.a91a5059.css",
+    "main.js": "/ucsc-portfolio/static/js/main.29b8aaaa.js",
+    "static/js/787.06a7e454.chunk.js": "/ucsc-portfolio/static/js/787.06a7e454.chunk.js",
+    "index.html": "/ucsc-portfolio/index.html",
+    "main.a91a5059.css.map": "/ucsc-portfolio/static/css/main.a91a5059.css.map",
+    "main.29b8aaaa.js.map": "/ucsc-portfolio/static/js/main.29b8aaaa.js.map",
+    "787.06a7e454.chunk.js.map": "/ucsc-portfolio/static/js/787.06a7e454.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a91a5059.css",
-    "static/js/main.b2843ab5.js"
+    "static/js/main.29b8aaaa.js"
   ]
 }
