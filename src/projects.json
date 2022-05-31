@@ -108,7 +108,7 @@
     {
       "id" : 8,
       "title" : "gnidEngine",
-      "tags": ["C/C++", "OpenGL", "Graphics", "Games", "Non-games", "Windows", "Linux"],
+      "tags": ["C/C++", "OpenGL", "Graphics", "Games", "Windows", "Linux"],
       "description" : "A work in progress 3D game engine I am developing in C++ using OpenGL. Currently, it features simple lighting, shaders, and fast collision detection using the GJK and EPA algorithms. It also uses k-D trees for collision pruning to improve the speed of collision detection. It is written entirely in C++, using modern (C++17) C++ features, and is compiled using the CMake build system, with documentation generated using Doxygen. The goals of the project include clean code, fast runtime, and detailed documentation.",
       "links" : [
         {
