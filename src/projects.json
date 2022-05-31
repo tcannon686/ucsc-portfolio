@@ -20,6 +20,23 @@
         "r3fps/screenshot2.png", "r3fps/screenshot3.png"]
     },
     {
+      "id": 11,
+      "title": "r3chess",
+      "description": "r3chess is a simple multiplayer chess app created using React, react-spring, and react-three-fiber, with a backend written using Redis, and Express. The app allows players to play chess matches in 3D with other players online by sharing a link with them. I created all of the content for the game, including the models of the pieces (using Blender), and the CSS. The project is hosted on Heroku, so you can play it online for free, no login required!",
+      "tags": ["JavaScript", "React", "Three.js", "Express", "Redis", "React Three Fiber", "Material UI", "Games"],
+      "links": [
+        {
+          "link": "https://tcannon686.github.io/react-three-chess/",
+          "text": "Play online"
+        },
+        {
+          "link": "https://github.com/tcannon686/react-three-chess",
+          "text": "Source code on GitHub"
+        }
+      ],
+      "screenshots" : ["r3chess/screenshot0.png", "r3chess/screenshot1.png", "r3chess/screenshot2.png"]
+    },
+    {
       "id" : 9,
       "title" : "Out on a Limb",
       "description" : "Out on a Limb is a platformer created by a group of UCSC students and I for the 2020 Global Game Jam. It is a complete game that can be played from start to finish and features enemies, obstacles, sound effects, music, and cartoony graphics. Zach Booth and I did the majority of the coding, while Joey Silberman wrote the music and designed the levels, and Nic Tee created art and sound effects. The project is written in Lua using Love 2D. You can download the game for Windows at the link below. To play on Mac or Linux, download Love 2D from the Love 2D website. Then, download the source code off of GitHub. Run the game by running love on the source code directory.",
