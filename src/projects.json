@@ -1,10 +1,29 @@
 {
   "projects": [
     {
+      "id": 10,
+      "title": "r3fps",
+      "description": "r3fps is a simple scene editor and soon-to-be game created using react-three-fiber, Material UI, and tcollide (my own custom library for collision detection). r3fps allows users to create scenes through an elegant MUI based interface. Users can create and position objects in the scene directly through the 3D-view of the scene, or through an inspector. Users can save their work to their computer or start the game by clicking the play button, which allows them to move around the scene and shoot snowballs.",
+      "tags": ["JavaScript", "React", "Three.js", "React Three Fiber", "Material UI", "Games"],
+      "links": [
+        {
+          "link": "https://tcannon686.github.io/r3fps/",
+          "text": "Play online"
+        },
+        {
+          "link": "https://github.com/tcannon686/r3fps",
+          "text": "Source code on GitHub"
+        }
+      ],
+      "screenshots" : [
+        "r3fps/screenshot0.png", "r3fps/screenshot1.png",
+        "r3fps/screenshot2.png", "r3fps/screenshot3.png"]
+    },
+    {
       "id" : 9,
       "title" : "Out on a Limb",
       "description" : "Out on a Limb is a platformer created by a group of UCSC students and I for the 2020 Global Game Jam. It is a complete game that can be played from start to finish and features enemies, obstacles, sound effects, music, and cartoony graphics. Zach Booth and I did the majority of the coding, while Joey Silberman wrote the music and designed the levels, and Nic Tee created art and sound effects. The project is written in Lua using Love 2D. You can download the game for Windows at the link below. To play on Mac or Linux, download Love 2D from the Love 2D website. Then, download the source code off of GitHub. Run the game by running love on the source code directory.",
-      "tags": ["Lua", "Games", "Platformer", "Windows", "Linux", "Team"],
+      "tags": ["Lua", "Games", "Windows", "Linux", "Team"],
       "links" : [
         {
           "link" : "https://ggj.s3.amazonaws.com/games/2020/02/273343/exec/SCOHk/outonalimb-windows.zip",
@@ -31,7 +50,7 @@
       "id" : 5,
       "title" : "Erraticus",
       "description" : "Erraticus is a mysterious game in which the player travels through a maze-like series of rooms. The goal is to complete a series of puzzles while avoiding ghosts and other enemies. The player has no weapons, but can kill the ghosts by leading them into doors and obstacles. The game features 2D and 3D art, an original soundtrack, and sound effects. It was created using Unity, C#, Blender, GIMP, Inkscape, and FLStudio. The Unity project is available at the link below.",
-      "tags": ["C#", "First person", "Unity", "Games", "Windows", "Linux"],
+      "tags": ["C#", "Unity", "Games", "Windows", "Linux"],
       "links" : [
         {
           "link" : "erraticus/erraticus-windows.zip",
@@ -56,7 +75,7 @@
       "id" : 4,
       "title" : "Tether Spin",
       "description" : "Tether Spin is a puzzle game app for Android. It is written in C# using MonoGame. I created all of the content for it, including sprites and sound effects. One of the most challenging parts of this project was creating levels that were the right amount of difficulty for both novice and advanced players. To play, users tap on the screen to connect the ball to rotating objects called \"spinners\". Players then guide the ball through a series of spinners to a goal, which takes them to the next level. Players can see how they rank compared to other players on the leaderboard.",
-      "tags": ["C#", "Android", "MonoGame", "Games", "Puzzle"],
+      "tags": ["C#", "Android", "MonoGame", "Games"],
       "links" : [
         {
           "link" : "https://play.google.com/store/apps/details?id=cannonapps.spin",
@@ -72,7 +91,7 @@
     {
       "id" : 8,
       "title" : "gnidEngine",
-      "tags": ["C/C++", "OpenGL", "First person", "Graphics", "Games", "Non-games", "Windows", "Linux"],
+      "tags": ["C/C++", "OpenGL", "Graphics", "Games", "Non-games", "Windows", "Linux"],
       "description" : "A work in progress 3D game engine I am developing in C++ using OpenGL. Currently, it features simple lighting, shaders, and fast collision detection using the GJK and EPA algorithms. It also uses k-D trees for collision pruning to improve the speed of collision detection. It is written entirely in C++, using modern (C++17) C++ features, and is compiled using the CMake build system, with documentation generated using Doxygen. The goals of the project include clean code, fast runtime, and detailed documentation.",
       "links" : [
         {
