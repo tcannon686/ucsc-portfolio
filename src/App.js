@@ -19,7 +19,7 @@ import Modal from '@mui/material/Modal'
 import CssBaseline from '@mui/material/CssBaseline'
 
 // React Router
-import { Routes, Route, BrowserRouter, Link as RouterLink } from 'react-router-dom'
+import { Routes, Route, HashRouter, Link as RouterLink } from 'react-router-dom'
 
 import projects from './projects'
 
@@ -202,7 +202,7 @@ function Contact () {
 
 function App () {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <CssBaseline />
       <Container maxWidth='md'>
         <Box p={4}>
@@ -224,7 +224,7 @@ function App () {
           </Routes>
         </Box>
       </Container>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
