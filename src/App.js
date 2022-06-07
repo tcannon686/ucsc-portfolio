@@ -17,6 +17,7 @@ import Link from '@mui/material/Link'
 import Typography from '@mui/material/Typography'
 import Modal from '@mui/material/Modal'
 import CssBaseline from '@mui/material/CssBaseline'
+import { ThemeProvider, createTheme } from '@mui/material/styles'
 
 // React Router
 import { Routes, Route, HashRouter, Link as RouterLink } from 'react-router-dom'
@@ -206,35 +207,43 @@ function Contact () {
   )
 }
 
+const theme = createTheme({
+  palette: {
+    mode: 'dark'
+  }
+})
+
 function App () {
   return (
     <HashRouter>
-      <CssBaseline />
-      <Container maxWidth='md'>
-        <Box p={1} pt={4}>
-          <Typography
-            variant='h2'
-            textAlign='center'
-          >
-            Thomas Cannon
-          </Typography>
-          <Stack
-            direction='row'
-            justifyContent='space-around'
-            pb={4}
-            flexWrap='wrap'
-          >
-            <Link component={RouterLink} to='/'>Home</Link>
-            <Link component={RouterLink} to='/projects'>Projects</Link>
-            <Link component={RouterLink} to='/contact'>Contact</Link>
-          </Stack>
-          <Routes>
-            <Route path='/' element={<Splash />} />
-            <Route path='/projects' element={<Projects />} />
-            <Route path='/contact' element={<Contact />} />
-          </Routes>
-        </Box>
-      </Container>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Container maxWidth='md'>
+          <Box p={1} pt={4}>
+            <Typography
+              variant='h2'
+              textAlign='center'
+            >
+              Thomas Cannon
+            </Typography>
+            <Stack
+              direction='row'
+              justifyContent='space-around'
+              pb={4}
+              flexWrap='wrap'
+            >
+              <Link component={RouterLink} to='/'>Home</Link>
+              <Link component={RouterLink} to='/projects'>Projects</Link>
+              <Link component={RouterLink} to='/contact'>Contact</Link>
+            </Stack>
+            <Routes>
+              <Route path='/' element={<Splash />} />
+              <Route path='/projects' element={<Projects />} />
+              <Route path='/contact' element={<Contact />} />
+            </Routes>
+          </Box>
+        </Container>
+      </ThemeProvider>
     </HashRouter>
   )
 }
