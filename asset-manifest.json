@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ucsc-portfolio/static/css/main.a91a5059.css",
-    "main.js": "/ucsc-portfolio/static/js/main.d7dc4474.js",
+    "main.js": "/ucsc-portfolio/static/js/main.e765379a.js",
     "static/js/787.06a7e454.chunk.js": "/ucsc-portfolio/static/js/787.06a7e454.chunk.js",
     "static/media/Resume.pdf": "/ucsc-portfolio/static/media/Resume.ab0650e8118e11708566.pdf",
     "static/media/Me.jpg": "/ucsc-portfolio/static/media/Me.07889c2daa842f1b5875.jpg",
     "index.html": "/ucsc-portfolio/index.html",
     "main.a91a5059.css.map": "/ucsc-portfolio/static/css/main.a91a5059.css.map",
-    "main.d7dc4474.js.map": "/ucsc-portfolio/static/js/main.d7dc4474.js.map",
+    "main.e765379a.js.map": "/ucsc-portfolio/static/js/main.e765379a.js.map",
     "787.06a7e454.chunk.js.map": "/ucsc-portfolio/static/js/787.06a7e454.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a91a5059.css",
-    "static/js/main.d7dc4474.js"
+    "static/js/main.e765379a.js"
   ]
 }
