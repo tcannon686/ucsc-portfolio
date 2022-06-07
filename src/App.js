@@ -37,6 +37,7 @@ function Project ({ project: { title, description, screenshots, video, links } }
             width='560'
             height='315'
             src={video}
+            style={{ maxWidth: '100%' }}
           />
         </Box>
       )}
@@ -60,7 +61,12 @@ function Project ({ project: { title, description, screenshots, video, links } }
         {description}
       </Typography>
       {links && (
-        <Stack direction='row' spacing={1} justifyContent='space-around'>
+        <Stack
+          direction='row'
+          spacing={1}
+          justifyContent='space-around'
+          flexWrap='wrap'
+        >
           {links.map(({ link, text }) => (
             <Link key={text} href={link}>{text}</Link>
           ))}
@@ -159,7 +165,7 @@ function Splash () {
         lot about map projections and tools like GDAL and proj to create maps of
         the moon, which I think is pretty cool.
       </Typography>
-      <Typography>
+      <Typography paragraph>
         If you'd like to see some of my personal projects, please check out
         the <Link component={RouterLink} to='/projects'>Projects</Link> page.
         Otherwise, I hope we will stay
@@ -205,14 +211,19 @@ function App () {
     <HashRouter>
       <CssBaseline />
       <Container maxWidth='md'>
-        <Box p={4}>
+        <Box p={1} pt={4}>
           <Typography
             variant='h2'
             textAlign='center'
           >
             Thomas Cannon
           </Typography>
-          <Stack direction='row' justifyContent='space-around' pb={4}>
+          <Stack
+            direction='row'
+            justifyContent='space-around'
+            pb={4}
+            flexWrap='wrap'
+          >
             <Link component={RouterLink} to='/'>Home</Link>
             <Link component={RouterLink} to='/projects'>Projects</Link>
             <Link component={RouterLink} to='/contact'>Contact</Link>
